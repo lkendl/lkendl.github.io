@@ -12,7 +12,7 @@ body {
     font-family: 'Raleway', Verdana, Arial, sans-serif;
     color: var(--text-color);
     background-color: #ECF1EF;
-    background: url("../img/mountain-back.jpg") no-repeat center center fixed; ;
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("../img/mountain-back.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,15 +39,16 @@ button {
     cursor: pointer;
     outline: none;
     width: 50%;
+    max-width: 400px;
 }
     
 button.outline {
           position: relative;
           z-index: 3;
-          background: #24b4db;
+          background: #FE0535;
           color: #FFF;
           font-size: 20px;
-          border-color: #24b4db;
+          border-color: #FE0535;
           border-style: solid;
           border-width: 2px;
           border-radius: 22px;
@@ -63,8 +64,8 @@ a {
 
 button.outline:hover {
           color: white;
-          background: #111;
-          border-color: #111;
+          background: #253388;
+          border-color: #253388;
           transition: all 0.2s linear;
       }
 button.outline:active {
