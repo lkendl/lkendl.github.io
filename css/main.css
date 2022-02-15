@@ -44,17 +44,17 @@ button {
 button.outline {
           position: relative;
           z-index: 3;
-          background: #FFF;
-          color: #24b4db;
+          background: #111;
+          color: #FFF;
           font-size: 20px;
-          border-color: #24b4db;
+          border-color: #111;
           border-style: solid;
           border-width: 2px;
           border-radius: 22px;
           padding: 10px 40px;
           text-transform: uppercase;
           transition: all 0.2s linear;
-          padding: 20px;
+          padding: 30px;
 }
 
 a {
