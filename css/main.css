@@ -44,10 +44,10 @@ button {
 button.outline {
           position: relative;
           z-index: 3;
-          background: #111;
+          background: #24b4db;
           color: #FFF;
           font-size: 20px;
-          border-color: #111;
+          border-color: #24b4db;
           border-style: solid;
           border-width: 2px;
           border-radius: 22px;
@@ -63,8 +63,8 @@ a {
 
 button.outline:hover {
           color: white;
-          background: #24b4db;
-          border-color: #24b4db;
+          background: #111;
+          border-color: #111;
           transition: all 0.2s linear;
       }
 button.outline:active {
